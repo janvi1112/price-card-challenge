@@ -1,0 +1,120 @@
+
+body{
+        background-color: hsl(204, 43%, 93%);
+        font-family: karla;
+        font-size: 16px;
+        font-weight: 400;
+        
+}    
+#card{
+    box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.49);
+    width: 600px;
+    height: 450px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    overflow:hidden;
+}
+
+
+h2,h4,p{
+    margin:0px;
+}
+
+#top-el{
+    
+    width: 100%;
+    height: 45%;
+    box-sizing:border-box;
+    padding: 30px;
+    background-color:white;
+
+}
+
+#bottom-el{
+   
+    width: 100%;
+    height:55%;
+    box-sizing:border-box;
+    display: inline-flex;
+}
+
+#bottom-left-el{
+    
+    width: 50%;
+    height: 100%;
+    box-sizing:border-box;
+    background-color:cyan;
+    padding: 30px;
+    color: white;
+}
+#bottom-right-el{
+    
+    width: 50%;
+    height: 100%;
+    box-sizing:border-box;
+    background-color: hsl(205, 57%, 72%);
+    padding: 30px;
+    color: white;
+}
+
+#top-el p{
+     opacity: 0.5;
+     margin-bottom:10px;
+    }
+
+#top-el h4{
+    color: hsl(71, 73%, 54%);
+    margin-bottom: 15px;
+}
+
+#top-el h2{
+    color: cyan;
+    margin-bottom: 25px;
+    
+}
+
+button{
+    background-color: hsl(71, 63%, 53%);
+    color: white;
+    border: none;
+    padding:10px;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 40px;
+
+}
+
+button:hover{
+    cursor: pointer;
+    background-color:rgb(120, 150, 60);
+    transform: scale(1.1);
+}
+
+#bottom-left-el div{
+    display: inline-flex;
+}
+
+#left{
+    font-weight: 700;
+    font-size:1.4rem;
+    margin-right:5px;
+}
+#right{
+    position:relative;
+    top: -2px;
+    opacity: 0.8;
+}
+ h4{
+    margin-bottom:20px;
+}
+#bottom-right-el p{
+    
+    opacity: 0.5;
+    font-size: 0.8rem;
+}
+
+#bottom-left-el p{
+    margin-top: 10px;
+}
+
